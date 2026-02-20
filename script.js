@@ -124,11 +124,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 100) {
             navbar.style.padding = '0.5rem 0';
-            navbar.style.background = 'linear-gradient(135deg, #6b63b0, #7d74b8)';
+            navbar.style.background = '#1f2937';
             navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.2)';
         } else {
             navbar.style.padding = '1rem 0';
-            navbar.style.background = 'linear-gradient(135deg, #837ad0, #9d94e0)';
+            navbar.style.background = '#1f2937';
             navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
         }
     });
